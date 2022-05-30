@@ -1,0 +1,21 @@
+{
+    "name": "minecraft-library-of-babel-search-tools",
+    "description": "Online tools for the Minecraft Library of Babel.",
+    "homepage": "https://mclobt.doteye.online",
+    "author": "DotEye",
+    "scripts": {
+        "start": "yarn parcel --no-hmr index.html",
+        "build": "yarn parcel build --no-source-maps index.html"
+    },
+    "dependencies": {
+        "ff3": "^1.0.1"
+    },
+    "devDependencies": {
+        "buffer": "^6.0.3",
+        "crypto-browserify": "^3.12.0",
+        "events": "^3.3.0",
+        "parcel": "latest",
+        "process": "^0.11.10",
+        "stream-browserify": "^3.0.0"
+    }
+}

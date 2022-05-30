@@ -1,0 +1,48 @@
+* {
+    color: #1a2b3c;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: #d07e9e;
+    margin: 25px;
+}
+
+label {
+    font-weight: bold;
+    font-size: larger;
+}
+
+input, button {
+    background: none;
+    border: 5px solid #1a2b3c;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+input:disabled {
+    border: 5px solid gray;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.error {
+    color: red;
+}
