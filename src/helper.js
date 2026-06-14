@@ -79,7 +79,7 @@ export function performSearch() {
     }
 
     disableInputs();
-    worker = new Worker(new URL('worker.js', import.meta.url), {type: 'module'});
+    worker = new Worker(new URL('./worker.js', import.meta.url), {type: 'module'});
     worker.addEventListener('message', event => {
         const {x, y, z, shelf, shulker, book, page} = event.data;
         const {x: nearbyX, y: nearbyY, z: nearbyZ, yaw, pitch} = NEARBY_BOOKSHELF_OFFSETS[shelf];

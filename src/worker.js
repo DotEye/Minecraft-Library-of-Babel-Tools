@@ -1,3 +1,4 @@
+import './polyfills';
 import {
     BOOK_MULTIPLIER,
     CHARACTERS,

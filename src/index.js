@@ -1,3 +1,4 @@
+import './polyfills';
 import {nearbySearchButton, nearbySearchEst, nearbySearchOutput, nearbySearchTextInput} from './dom';
 import {enableInputs, fillFromSearchParams, getEstimatedSearchTimeMultiplier, performSearch, worker} from './helper';
 
